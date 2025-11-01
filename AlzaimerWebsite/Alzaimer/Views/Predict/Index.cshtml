@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Alzheimer Prediction";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4" style="border-radius: 20px;">
+        <h2 class="text-center mb-4">🧠 Make an Alzheimer Prediction</h2>
+
+        <form asp-action="Index" method="post" enctype="multipart/form-data" class="text-center">
+            <div class="form-group mt-3">
+                <label for="file" class="fw-bold">Upload Brain MRI Image:</label>
+                <input type="file" name="file" class="form-control mt-2" required />
+            </div>
+
+            <button class="btn btn-primary mt-4 px-5" type="submit">Predict</button>
+        </form>
+
+        @if (ViewBag.UploadedImage != null)
+        {
+            <hr class="my-4" />
+            <div class="text-center">
+                <h4 class="mb-3">📸 Selected Image</h4>
+                <img src="data:image/png;base64,@ViewBag.UploadedImage" class="img-fluid rounded shadow" style="max-width: 350px;" />
+            </div>
+
+            <div class="alert alert-info mt-4 text-center p-4">
+                <h5>🧩 Prediction Result: <span class="fw-bold text-primary">@ViewBag.Result</span></h5>
+                <p>🎯 Confidence Rate: <span class="fw-bold">@ViewBag.Confidence</span></p>
+            </div>
+        }
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger mt-3 text-center">@ViewBag.Error</div>
+        }
+    </div>
+</div>

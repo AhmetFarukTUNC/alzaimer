@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Register";
+}
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh; background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);">
+    <div class="card shadow-lg p-4" style="width: 100%; max-width: 400px; border-radius: 15px;">
+        <h2 class="text-center fw-bold mb-4" style="color: #4a90e2;">Create Account</h2>
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger text-center">
+                @ViewBag.Error
+            </div>
+        }
+
+        <form method="post">
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Username</label>
+                <input type="text" name="username" class="form-control form-control-lg" placeholder="Enter your username" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Password</label>
+                <input type="password" name="password" class="form-control form-control-lg" placeholder="Enter your password" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 py-2 fw-bold" style="background: linear-gradient(90deg, #ff6a00, #ee0979); border:none; box-shadow: 0 5px 15px rgba(0,0,0,0.2); transition: transform 0.3s;">
+                Register
+            </button>
+        </form>
+
+        <p class="text-center mt-3">Already have an account? <a href="/Account/Login" class="fw-bold" style="color:#ff6a00;">Login</a></p>
+    </div>
+</div>
+
+<!-- Hover effect -->
+<style>
+    button:hover {
+        transform: scale(1.05);
+    }
+
+    .card {
+        background: #fff;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+</style>

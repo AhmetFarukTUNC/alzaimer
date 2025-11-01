@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlzaimerApp", "Alzaimer\AlzaimerApp.csproj", "{A8327FEF-A811-420E-A47F-5DA288302756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8327FEF-A811-420E-A47F-5DA288302756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8327FEF-A811-420E-A47F-5DA288302756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8327FEF-A811-420E-A47F-5DA288302756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8327FEF-A811-420E-A47F-5DA288302756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C625EB3-BDA4-4EEE-883E-9BC8BE5B9D5F}
+	EndGlobalSection
+EndGlobal
