@@ -43,3 +43,19 @@ The AI model predicts the uploaded MRI image into one of the following four clas
 3. View the predicted Alzheimer class and confidence percentage instantly.  
 4. Predictions are saved in your account history.
 
+## PROJECT IMAGES
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/homepage.png)
+
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/about.png)
+
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/privacy.png)
+
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/contact.png)
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/register.png)
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/login.png)
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/predict1.png)
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/predict2.png)
+![Açıklama](https://github.com/AhmetFarukTUNC/alzaimer/blob/main/images/list.png)
+
+
+
